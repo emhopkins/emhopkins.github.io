@@ -1,0 +1,21 @@
+# Site settings
+title: Adventures in Programming
+header-img: img/home-bg.png
+email: elenamariehopkins@gmail.com
+copyright_name: emhopkins
+description: > # this means to ignore newlines until "baseurl:"
+  My experiences as a Learn student and a growing developer. 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  emhopkins
+learn_profile: emhopkins
+email_username: elenamariehopkins@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
