@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "My First Gem - The Office Quote Generator"
-date:   2017-06-20 06:58:24 +0000
+date:   2017-06-20 02:58:25 -0400
 ---
 
  
 **"I'm sort of a master of distraction. When I was a kid, my mom received complaints left and right from my teachers that I would distract everyone around me." - Michael**
  
  
-For my first gem I decided to build a CLI app that allows a user to view different quotes from the TV show, "The Office".  And I have to admit, I spent more time than necessary testing the CLI because I love this show so much.  I may have created a monster.  I scraped my data from the site https://www.tvfanatic.com/quotes/shows/the-office/, which was the best selection of quotes from The Office I could find.  
+For my first gem I decided to build a CLI app that allows a user to view different quotes from the TV show, "The Office".  And I have to admit, I spent more time than necessary testing the CLI because I love this show so much.  I may have created a monster.  I scraped my data from this [site](https://www.tvfanatic.com/quotes/shows/the-office/), which was the best selection of quotes from The Office I could find.  
  
 **"Speaking as a former baby, don't get too hung up on baby names." -Andy**
  
@@ -54,7 +54,7 @@ Each option will invoke a different class method from the Quote and Character cl
  
 **I resent the implication that I would keep that secret. I can't and I won't. -Andy**
  
-My gem can be found here: https://rubygems.org/gems/the-office-quote-generator.  This part was challenging, because I had to restructure my project a bit to work as a gem.  I also had to do a bit of troubleshooting with my gemspec until I got everything working correctly.  And many versions later, I had my gem working as I'd hoped!  The biggest struggle for me was figuring out the correct way to require my gem dependencies as well as the proper way to include all my files.  I ended up including all my lib files in the executable, the-office-quote-generator.  I also found that I needed to use `s.add_runtime_dependency` in my gemspec (rather than `s.add_development_dependency`) in order for someone to install my gem (without `--dev`) and run my executable successfully.  After getting all of these final things worked out, I was so excited to install my gem (in a new directory) and run the executable.  
+My gem can be found [here](https://rubygems.org/gems/the-office-quote-generator) .  This part was challenging, because I had to restructure my project a bit to work as a gem.  I also had to do a bit of troubleshooting with my gemspec until I got everything working correctly.  And many versions later, I had my gem working as I'd hoped!  The biggest struggle for me was figuring out the correct way to require my gem dependencies as well as the proper way to include all my files.  I ended up including all my lib files in the executable, the-office-quote-generator.  I also found that I needed to use `s.add_runtime_dependency` in my gemspec (rather than `s.add_development_dependency`) in order for someone to install my gem (without `--dev`) and run my executable successfully.  After getting all of these final things worked out, I was so excited to install my gem (in a new directory) and run the executable.  
  
 I think I deserve to watch an episode of the office. 
  
