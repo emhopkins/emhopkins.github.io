@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Sinatra Portfolio Project - CRUD Application "
-date:   2017-08-24 04:33:15 +0000
+date:   2017-08-24 00:33:16 -0400
 ---
 
 
-For my Sinatra portfolio project, I created a travel site.  A user can sign up for my site and then create new travel destinations as well as view destinations created by other users.  They can also edit their own destinations.  Every travel destination also has many activities.  For my project structure, I ended up with this:
-
-![](http://imgur.com/a/cgyOj)
+For my Sinatra portfolio project, I created a travel site.  A user can sign up for my site and then create new travel destinations as well as view destinations created by other users.  They can also edit their own destinations.  Every travel destination also has many activities.
 
 I created three models for my application: users, destinations and activities.  The relationships between the models were:
 * A user has many destinations and many activities. 
